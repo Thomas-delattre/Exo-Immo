@@ -1,0 +1,30 @@
+.section-1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    
+}
+.img-1{
+    background-image: url(../../assets/images/Deb.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    
+}
+.section-1-right{
+    padding: 40px 40px 0 0;
+    line-height: 25px;
+    margin-left: 35px;
+
+    h3{
+        padding-bottom: 10px;
+        font-family: $font-1;
+        font-size: 1.2rem;
+    }
+    p{
+        padding-bottom: 20px;
+        }
+}

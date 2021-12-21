@@ -105,4 +105,40 @@ nav a {
 .header-down p {
   font-size: 1.2rem;
 }
+
+.section-1 {
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.img-1 {
+  background-image: url(../../assets/images/Deb.jpg);
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.section-1-right {
+  padding: 40px 40px 0 0;
+  line-height: 25px;
+  margin-left: 35px;
+}
+
+.section-1-right h3 {
+  padding-bottom: 10px;
+  font-family: "font-1", sans-serif;
+  font-size: 1.2rem;
+}
+
+.section-1-right p {
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
