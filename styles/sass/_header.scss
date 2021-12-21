@@ -1,0 +1,47 @@
+header{
+    background-image: url(../../assets/images/01.272.07.005.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    color: white;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    li{
+        padding: 25px;
+    }
+    a{
+        color: white;
+        font-size: 0.9rem;
+    }
+}
+#loupe{
+    transform: rotate(90deg);  
+}
+
+.header-down{
+    position: absolute;
+    bottom: 4%;
+    left: 7%;
+    padding: 30px;
+    
+    h1{
+     font-size: 2.5rem;
+     font-family: $font-1;
+     padding-bottom: 30px;
+     }
+ p{
+     font-size: 1.2rem;
+   
+ }
+}

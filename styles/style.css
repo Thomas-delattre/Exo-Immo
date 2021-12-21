@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/MerriweatherSans-Regular.ttf);
+}
+
+/*Titre*/
+/*Text*/
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "font-2", serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 h2 h3 h4 {
+  font-family: "font-1", sans-serif;
+}
+
+p {
+  font-family: "font-2", serif;
+}
+
+header {
+  background-image: url(../../assets/images/01.272.07.005.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 50px;
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li {
+  padding: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 0.9rem;
+}
+
+#loupe {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.header-down {
+  position: absolute;
+  bottom: 4%;
+  left: 7%;
+  padding: 30px;
+}
+
+.header-down h1 {
+  font-size: 2.5rem;
+  font-family: "font-1", sans-serif;
+  padding-bottom: 30px;
+}
+
+.header-down p {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
