@@ -1,0 +1,56 @@
+.section-3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0 auto;
+    height: 100vh;
+   padding: 100px 0;
+    
+    
+}
+.container-img3{
+    position: relative;
+    height: 100%;
+
+    .img-3{
+        position: absolute;
+        background-image: url(../../assets/images/Dream-Downtown-Hotel-4.jpg);
+        background-size: cover;
+        height: 90%;
+        width: 70%;
+        bottom: 0;
+        left: 0;
+    }
+
+.img-3-5{
+    background-image: url(../../assets/images/National-September11-Memorial-1.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 60%;
+    z-index: -1;
+    position: absolute;
+    top: 5px;
+    right: 12%;
+}
+}
+.section-3-right{
+    margin: 60px 30px 0 0;
+
+
+    h3{
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        font-family: $font-1;
+    }
+    p{
+        line-height: 30px;
+        font-family: $font-2;
+    }
+    .p2{
+        margin: 20px 0;
+    }
+    a{
+        color: $color-3;
+    }
+}
+

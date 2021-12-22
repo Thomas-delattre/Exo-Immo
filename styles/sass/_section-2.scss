@@ -1,0 +1,62 @@
+.section-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 200px 50px;
+    
+}
+.section-2-right{
+    position: relative;
+    height: 100%;
+    
+    .img-2{
+        background-image: url(../../assets/images/Sendero-Verde-1.jpg);
+        background-size: cover;
+        height: 70%;
+        width: 80%;
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+        max-width: 550px;
+
+    }
+    .img-2-5{
+        background-image: url(../../assets/images/Sendero-Verde-3.jpg);
+        height: 70%;
+        width: 80%;
+        z-index: -1;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+.section-2-left{
+    line-height: 35px;
+    padding-right: 40px;
+    margin-right: 20px;
+    height: 100%;
+    position: relative;
+}
+.text-left{
+    position: absolute;
+    left: 0;
+    top: 40px;
+
+    h3{
+        
+        font-family: $font-1;
+        font-size: 1.4rem;
+    
+    }  
+    p{
+        padding: 20px 0;
+    }
+    a{
+        color: $color-3;
+        font-family: $font-2;
+    }
+}
+
