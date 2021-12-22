@@ -297,20 +297,29 @@ nav a {
   display: grid;
   -ms-grid-columns: 70% 30%;
       grid-template-columns: 70% 30%;
-  height: 100vh;
+  margin-top: 40px;
+  position: relative;
 }
 
 .section-4 .img-4 {
   background-image: url(../../assets/images/office.jpg);
-  background-size: center;
-  height: 80%;
+  background-size: cover;
+  height: 95%;
   position: relative;
+  margin-top: 15px;
 }
 
 .section-4 .nav-4 {
   position: absolute;
-  bottom: 30px;
-  left: 20px;
+  bottom: 70px;
+  left: 200px;
+}
+
+.section-4 .nav-4 h3 {
+  margin-bottom: 20px;
+  font-family: "font-1", sans-serif;
+  font-size: 1.2rem;
+  color: #070707;
 }
 
 .section-4 .nav-4 ul {
@@ -328,18 +337,107 @@ nav a {
 .section-4 .nav-4 li {
   border: 1px solid #1a1919;
   margin: 0 10px;
+  padding: 12px 10px;
 }
 
 .section-4 .nav-4 a {
   color: #070707;
-  padding: 10px 20px;
 }
 
 .section-4-right {
   background-color: #00cdaa;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
 }
 
-.section-4-right li {
+.section-4-right h3 {
+  font-family: "font-1", sans-serif;
+  padding: 40px;
+  font-size: 1.5rem;
   color: #f7f4f4;
+}
+
+.section-4-right a {
+  color: #f7f4f4;
+  padding: 40px;
+}
+
+.section-4-right div {
+  font-family: "font-2", serif;
+  color: #f7f4f4;
+  margin: 40px;
+}
+
+.section-4-right div p {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f7f4f4;
+  line-height: 35px;
+}
+
+.section-5 {
+  background: #001828;
+  color: #f7f4f4;
+  z-index: -1;
+  height: 100vh;
+}
+
+.section-5 a {
+  color: #00cdaa;
+}
+
+.s5-titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-left {
+  background-image: url(../../assets/images/Lobello-Ryan-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.img-middle {
+  background-image: url(../../assets/images/01.199.12.034.no.rights-crop.jpg);
+  background-size: center;
+  height: 400px;
+  width: 100%;
+}
+
+.img-right {
+  background-image: url(../../assets/images/00.526.11.055.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 30px;
 }
 /*# sourceMappingURL=style.css.map */

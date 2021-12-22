@@ -1,0 +1,40 @@
+.section-5{
+    background: rgb(0,24,40);
+    color: $color-2;
+    z-index: -1;
+    height: 100vh;
+a{
+    color: $color-3;
+}
+}
+.s5-titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-left{
+    background-image: url(../../assets/images/Lobello-Ryan-1.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.img-middle{
+    background-image: url(../../assets/images/01.199.12.034.no.rights-crop.jpg);
+    background-size: center;
+    height: 400px;
+    width: 100%;
+}
+.img-right{
+    background-image: url(../../assets/images/00.526.11.055.jpg);
+    background-size: cover;
+   height: 400px;
+   width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 30px;
+}
