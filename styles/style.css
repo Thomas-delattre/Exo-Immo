@@ -483,6 +483,11 @@ nav a {
   margin: 20px;
 }
 
+.footer-up {
+  height: 50vh;
+  border-bottom: 1px solid rgba(189, 181, 181, 0.87);
+}
+
 .footer-up h3 {
   font-size: 3rem;
   font-weight: bold;
@@ -496,5 +501,81 @@ nav a {
   font-size: 1.2rem;
   border-bottom: 2px solid #00cdaa;
   padding-bottom: 4px;
+}
+
+.footer-up a:not(:hover) {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  color: #969696;
+  border-bottom: 2px solid #969696;
+}
+
+.footer-down {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  width: 90%;
+  margin-top: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a {
+  line-height: 35px;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=style.css.map */
