@@ -388,19 +388,28 @@ nav a {
   color: #f7f4f4;
   z-index: -1;
   height: 100vh;
+  /* width: 100%;*/
 }
 
 .section-5 a {
   color: #00cdaa;
+  font-size: 1rem;
+  margin: 5px 0 20px 0;
+  padding-left: 40px;
+}
+
+.section-5 h3 {
+  font-size: 2rem;
+  margin: 20px;
+  padding: 0 20px;
 }
 
 .s5-titre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -412,36 +421,48 @@ nav a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
-  margin: 20px;
-  position: absolute;
+  /* height: 100%;
+    width: 100%;*/
+  margin: 0 20px;
 }
 
 .img-left {
   background-image: url(../../assets/images/Lobello-Ryan-1.jpg);
   background-size: cover;
   height: 500px;
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 20px;
-}
-
-.img-left .text-left {
-  bottom: 5px;
-  left: 20px;
-  position: relative;
 }
 
 .img-middle {
   background-image: url(../../assets/images/01.199.12.034.no.rights-crop.jpg);
   background-size: cover;
   height: 500px;
-  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 20px;
 }
 
@@ -449,7 +470,31 @@ nav a {
   background-image: url(../../assets/images/00.526.11.055.jpg);
   background-size: cover;
   height: 500px;
-  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 20px;
+}
+
+.footer-up h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "font-1", sans-serif;
+  margin: 200px 200px 50px 200px;
+}
+
+.footer-up a {
+  color: #00cdaa;
+  margin-left: 200px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #00cdaa;
+  padding-bottom: 4px;
 }
 /*# sourceMappingURL=style.css.map */

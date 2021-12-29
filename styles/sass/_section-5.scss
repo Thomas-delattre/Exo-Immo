@@ -3,53 +3,66 @@
     color: $color-2;
     z-index: -1;
     height: 100vh;
-a{
-    color: $color-3;
-}
+   /* width: 100%;*/
+    
+    a{
+        color: $color-3;
+        font-size: 1rem;
+        margin: 5px 0 20px 0;
+        padding-left: 40px;
+        }
+    h3{
+        font-size: 2rem;
+        margin: 20px;
+        padding: 0 20px;
+    }
 }
 .s5-titre{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     top: 25px;
     left: 20px;
+    
 }
 
 .container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    height: 100%;
-    margin: 20px;
-    position: absolute;
+   /* height: 100%;
+    width: 100%;*/
+    margin: 0 20px;
 }
 .img-left{
     background-image: url(../../assets/images/Lobello-Ryan-1.jpg);
     background-size: cover;
     height: 500px;
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     margin: 20px;
+
     
     
-
-    .text-left{
-    bottom: 5px;
-    left: 20px;
-    position: relative;
-    }
-    }
-
+}
 .img-middle{
     background-image: url(../../assets/images/01.199.12.034.no.rights-crop.jpg);
     background-size: cover;
     height: 500px;
-    width: 95%;
-    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 20px ;
+    
 }
 .img-right{
     background-image: url(../../assets/images/00.526.11.055.jpg);
    background-size: cover;
    height: 500px;
-   width: 95%;
-   margin: 20px;
+   display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 20px;
+   
 }
